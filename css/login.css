@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main h1 {
+    font-weight: 200;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main form label input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 495px;
+    height: 30px;
+}
+
+main form #button {
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+main form #button:hover {
+    cursor: pointer;
+} 
+
+main form input:focus {
+    outline: 0;
+    border-bottom: 1px solid #7936FC;
+}
+
+section {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    width: 300px;
+}
+
+main .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+main .login-midias {
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+}
+
+main .login-midias #midias {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .login-midias #midias img {
+    width: 30px;
+}
